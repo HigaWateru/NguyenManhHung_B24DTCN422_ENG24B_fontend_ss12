@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    background-color: #f1f1f1;
+    width: 80%;
+    padding: 20px 30px;
+}
+form main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+form main p{
+    font-size: 13px;
+    color: #33333382;
+}
+form main label{
+    width: 100%;
+    padding: 10px 0;
+}
+form main input{
+    width: 100%;
+}
+form main .around{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cardName, .creditCard, .expirasion, .cvv{
+    width: calc(50% - 10px);
+}

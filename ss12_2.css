@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    width: 60%;
+}
+form input[type="email"]{
+    padding: 5px;
+    margin: 10px 0;
+    width: 80%;
+}
+form button{
+    padding: 3px 8px;
+    margin: 10px 0;
+}
